@@ -14,9 +14,9 @@
 		<button><a href="${pageContexth.request.contextPat}/libros/findOne?%opcion=1">Agregar</a> </button>
 	
 	<table>
-		<thead>
-			<tr>
-				<th>idLibro</th> 
+		<thead> 
+			<tr> 
+				<th>idLibro</th>
 				<th>titulo</th>
 				<th>editorial</th>
 				<th>numPaginas</th>

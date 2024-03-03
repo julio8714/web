@@ -22,7 +22,7 @@ public class LibroController {
 	
 	
 	@Autowired
-	private LibroService libroService; 
+	private LibroService libroService;
 	
 	
 	

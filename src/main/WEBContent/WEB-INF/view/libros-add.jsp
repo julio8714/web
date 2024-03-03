@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>	
-	<h1>Libros</h1>
+	<h1>Libros</h1> 
 	 
 		<form action="add" method="post">
 			idLibro
