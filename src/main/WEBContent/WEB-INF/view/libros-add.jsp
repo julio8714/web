@@ -8,7 +8,7 @@
 </head>
 <body>	
 	<h1>Libros</h1>
-	
+	 
 		<form action="add" method="post">
 			idLibro
 			<input type="hidden" id="idLibro" name ="idLibro" value="${libro.idLibro}"/>

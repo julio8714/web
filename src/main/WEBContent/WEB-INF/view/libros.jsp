@@ -16,7 +16,7 @@
 	<table>
 		<thead>
 			<tr>
-				<th>idLibro</th>
+				<th>idLibro</th> 
 				<th>titulo</th>
 				<th>editorial</th>
 				<th>numPaginas</th>
