@@ -99,7 +99,7 @@ public class LibroServiceImpl implements LibroService{
 			Categoria categoria = categoriaDAO.findOne(idCategoria);
 			Autor autor = autorDAO.findOne(idAutor);
 			
-		Libro libro = new Libro(idLibro, titulo,editorial,numPaginas, edicion, idioma,fechaPublicacion,descripcion, tipoPasta,isbn, numeroEjemplares, portada, presentacion,precio);
+		Libro libro = new Libro(idLibro, titulo,editorial,numPaginas, edicion, idioma,fechaPublicacion,descripcion, tipoPasta,isbn, numeroEjemplares, portada, presentacion, precio);
 		libro.setCategoria(categoria);
 		libro.setAutor(autor);
 		

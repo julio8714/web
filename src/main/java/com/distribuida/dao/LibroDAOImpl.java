@@ -54,6 +54,7 @@ public class LibroDAOImpl implements LibroDAO {
 	}
 
 	@Override
+	@Transactional
 	public void del(int id) {
 		// TODO Auto-generated method stub
 		Session session = sessionFactory.getCurrentSession();

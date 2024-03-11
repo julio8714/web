@@ -49,8 +49,7 @@ public class ClienteController {
 		else return "clientes-del";
 		
 	}
-	
-	
+		
 	
 	//POST - insert -add()
 	
@@ -68,7 +67,7 @@ public class ClienteController {
 			
 			else clienteService.up(idCliente, cedula, nombre, apellido, direcion, telefono, correo);
 		
-		return "redirect:/clientes/add";
+		return "redirect:/clientes/findAll";
 	}
 	
 	// PUT  - UPDATE - UP

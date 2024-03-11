@@ -8,15 +8,17 @@ public interface LibroDAO {
 
 	List<Libro> findAll();
 
-	Libro findOne(int id);
+public	Libro findOne(int id);
 
-	void add(Libro libro);
+public	void add(Libro libro);
+	
+public	void up(Libro libro);
 
-	List<Libro> findAll(String busqueda);
+public	void del(int id);
 
-	void del(int id);
-
-	void up(Libro libro);
+	
 	
 	// spring boot - CrudeRepository
+	
+	List<Libro> findAll(String busqueda);
 }
